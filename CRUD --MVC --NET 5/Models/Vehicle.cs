@@ -12,7 +12,6 @@ namespace CRUD___MVC___NET_5.Models
         public int Id { get; set; }
 
         [Required(ErrorMessage = "Llenar el campo es obligatorio")]
-        [StringLength(50, ErrorMessage = "Obligatorio cumplir de 5 a 50 caracteres", MinimumLength = 5)]
         [Display(Name = "Marca")]
         public int marca { get; set; }
 
